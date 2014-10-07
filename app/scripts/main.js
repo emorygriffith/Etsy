@@ -7,7 +7,7 @@ var cont= $('#drink'),
 
 whiskey.results.forEach ( function(item) {
 
-  box = "<img class= 'box' src='" + 'https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2008/assets/hamburger.png' + "'/>"
+  box = "<img class= 'box' src='" + 'https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2008/assets/hamburger.png' + "'/>" + "<img class= 'box2' src='" + 'https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2008/assets/heart.png' + "'/>";
 
   title = "<p class='t'>" + item.title + "</p>";
 
@@ -21,18 +21,17 @@ whiskey.results.forEach ( function(item) {
 
   glass = "<li>" + box + image + title + shop_name + currency_code + price + "</li>";
 
-
-
   cont.append(glass);
 
 });
 
 
-//
-// $('li').hover(
-//
-//   function() {
-//     $(this).toggleClass('showButtons');
-//   },
-//
-// );
+
+
+$('li').hover(
+
+  function () {
+    $(this).toggleClass('showButtons');
+  }
+
+);

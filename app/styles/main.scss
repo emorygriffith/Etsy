@@ -43,10 +43,28 @@ section {
       height:25px;
       width:25px;
       top:5px;
-      right:5px;
+      right:10px;
       position:absolute;
+      background-color:gray;
+      display:none;
 
     }
+
+    .box2{
+      height:25px;
+      width:25px;
+      top:5px;
+      right:40px;
+      position:absolute;
+      background-color:gray;
+      display:none;
+
+    }
+
+
+    &.showButtons .box, &.showButtons .box2 {
+    display: block;
+  }
 
     img{
       height:170px;
