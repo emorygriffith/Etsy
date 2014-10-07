@@ -16,7 +16,7 @@ whiskey.results.forEach ( function(item) {
 
   image = "<img src='" + item.Images[0].url_170x135 + "'/>";
 
-  glass = "<li>" + title + price + currency_code + shop_name + image + "</li>";
+  glass = "<li>" + image + title + shop_name + price + currency_code +  "</li>";
 
   cont.append(glass);
 
