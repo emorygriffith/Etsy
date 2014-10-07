@@ -6,7 +6,7 @@ body {
   background: #fafafa  ;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
-  background:HSLA(60, 17%, 95%, 1);
+  background: blue; /* HSLA(60, 17%, 95%, 1); */
 
 }
 
@@ -14,6 +14,8 @@ section {
   @include outer-container;
 
   li {
+    border-radius:3px;
+    margin-top:10px;
     font-size:12px;
     border:solid;
     border-color:white;
@@ -22,13 +24,57 @@ section {
     display: block;
     height:220px;
     width:220px;
+    background-color:white;
 
     img{
       height:170px;
       width:208px;
+      display:block;
+      margin: 0 auto;
+      
+    }
+
+    p{
+      margin:0px;
+    }
+
+    .t{
+      width: 200px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      color:HSLA(0, 0%, 40%, 1);
+      margin-top:5px;
+      margin-left:3px;
+
+      }
+
+    .sn{
+      float:left;
+      color:HSLA(0, 0%, 70%, 1);
+      margin-top:5px;
+      margin-left:3px;
+    }
+
+    .p{
+      float:right;
+      color:HSLA(94, 50%, 51%, 1);
+      margin-top:5px;
+    }
+    .cc{
+      float:right;
+      margin-left: 3px;
+      color:HSLA(94, 50%, 51%, 1);
+      margin-top:5px;
+      margin-right:3px;
     }
 
 
 
   }
+}
+
+li:hover{
+  box-shadow: 0 0 1em gray;
+
 }
