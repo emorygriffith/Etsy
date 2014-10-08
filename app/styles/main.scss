@@ -63,7 +63,37 @@ body {
   color: #333;
   background: HSLA(60, 17%, 95%, 1);
 
+
+
+.header2{
+
+  width:100%;
+  display:inline-block;
+  height:100px;
+
+
+  .show{
+    display:inline-block;
+    margin-left:230px;
+    margin-top:50px;
+    }
+
+  .whiskey{
+    display:inline-block;
+    margin-left:150px;
+
+
+
+    }
+
+
 }
+
+
+}
+
+
+
 
 .leftside{
   height:1130px;
@@ -71,12 +101,14 @@ body {
   float:left;
   background-color:white;
   margin-left:230px;
-  margin-top:50px;
 
-  h5{
-    margin-top:-30px;
-    color:HSLA(0, 4%, 42%, 1);
+  p{
+    padding:10px;
+    text-align:center;
   }
+
+
+
 }
 
 section {
@@ -85,21 +117,13 @@ section {
   margin-left:0px;
   width:800px;
   margin-right:180px;
-  margin-top:25px;
-
-  p{
-
-    margin-top:-80px;
-    color:HSLA(0, 4%, 42%, 1);
-  }
-
 }
 
 
   li {
 
     border-radius:3px;
-    margin-top:10px;
+    margin-top:0px;
     font-size:12px;
     border:solid;
     border-color:white;
@@ -189,7 +213,7 @@ section {
 
 
   }
-}
+
 
 li:hover{
   box-shadow: 0 0 1em gray;
