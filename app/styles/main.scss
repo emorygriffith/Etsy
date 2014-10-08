@@ -8,6 +8,54 @@ header {
   background-color:white;
 }
 
+h1{
+  color:HSLA(17, 68%, 49%, 1);
+  size:300px;
+  display:inline-block;
+  margin-left:230px;
+  font-family: sarif;
+
+}
+
+form {
+    width:260px;
+    margin-right:0px;
+    margin-left:30px;
+    display:inline-block;
+}
+
+.search {
+    padding:8px 15px;
+    color:HSLA(195, 51%, 54%, 1);
+    border:0px solid #dbdbdb;
+}
+
+.button {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid #207cca;
+
+}
+
+.register{
+  display:inline-block;
+  margin-left:380px;
+
+}
+
+.signin{
+  display:inline-block;
+  border:solid;
+  padding:6px;
+  border-radius:3px;
+  margin-left:15px;
+}
+
+
+
+
+
 
 body {
   background: #fafafa  ;
@@ -17,11 +65,35 @@ body {
 
 }
 
+.leftside{
+  height:1130px;
+  width:230px;
+  float:left;
+  background-color:white;
+  margin-left:230px;
+  margin-top:50px;
+
+  h5{
+    margin-top:-30px;
+    color:HSLA(0, 4%, 42%, 1);
+  }
+}
+
 section {
   @include outer-container;
+  float:right;
+  margin-left:0px;
+  width:800px;
+  margin-right:180px;
+  margin-top:25px;
 
-  margin-left:442px;
+  p{
 
+    margin-top:-80px;
+    color:HSLA(0, 4%, 42%, 1);
+  }
+
+}
 
 
   li {
