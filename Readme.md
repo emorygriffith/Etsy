@@ -1,3 +1,10 @@
-## Yo, I'm a Readme
+## Etsy.com re-creation
 
-You should probably update me so people looking at your code have an idea what it is being used for :)
+I re-created an etsy.com "Whisky" page by using their API and styling the data with Sass.
+
+How to use it:
+-Clone my repo
+
+-Run npm install
+
+-Run bower install
